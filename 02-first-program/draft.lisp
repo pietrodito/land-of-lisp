@@ -1,1 +1,0 @@
-(defparameter *small* 1)
