@@ -1,0 +1,2 @@
+(defun my-print ()
+  (print))
