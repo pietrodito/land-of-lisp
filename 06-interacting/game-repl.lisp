@@ -104,5 +104,5 @@
       (game-repl))))
 
 (defun start-game ()
-  (look)
+  (game-print (look))
   (game-repl))

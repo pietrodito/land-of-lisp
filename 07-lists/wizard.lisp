@@ -67,4 +67,8 @@
 
 (graph->png "wizard.dot" *wizard-nodes* *wizard-edges*)
 
-(sb-ext:run-program "/usr/bin/dot" )
+(sb-ext:run-program "/usr/bin/dot" (list (concatenate 'string "-Tpng -O " "test.dot")))
+(sb-ext:run-program "/bin/ls" '("-a" " > out"))
+
+(list (concatenate 'string "-Tpng -O " "test.dot"))
+
