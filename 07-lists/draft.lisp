@@ -10,3 +10,6 @@
 (assoc 'lisa *drink-order*)
 (push '(lisa . large-mocha-with-whipped-cream) *drink-order*)
 (assoc 'lisa *drink-order*)
+
+(cdar *wizard-edges*)
+(cdar (cdr *wizard-edges*))
